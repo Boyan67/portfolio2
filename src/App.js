@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import HomeAboutSection from "./components/HomeAboutSection";
-import React from 'react'
+import React, {useEffect} from 'react'
 import {FaChevronCircleDown} from "react-icons/fa";
 import SocialBanner from "./components/SocialBanner";
 import ProjectCard from "./components/ProjectCard";
@@ -18,6 +18,10 @@ export function navigateInPage (ele){
 function App() {
 
   const [darkToggle, setDarkToggle] = React.useState(true)
+
+  useEffect(() => {
+    document.title = 'Boyan Yonkov';
+  });
 
   return (
       <div className={`${darkToggle ? 'dark' : ''}`} id={"landing-page"}>
@@ -76,7 +80,9 @@ function App() {
             </div>
 
             <AboutSection
-                aboutText={"Some random text here blah"}
+                aboutText={"A Bulgarian front-end developer that graduated in the UK with a bachelors degree of " +
+                    "Computer Science from the University of East Anglia. Very eager to learn and improve my skill set. " +
+                    "My passion lies in being a great front-end developer. Looking for a role where I can grow and learn from experienced team members, while drawing on experience from projects I have successfully completed."}
                 languages={languages}
                 software={software}
                 frameworks={frameworks}

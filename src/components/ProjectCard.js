@@ -8,7 +8,7 @@ function ProjectCard({image, skills, title, type, link}) {
                 <img
                     src={image}
                     alt="Placeholder img"
-                    className={"h-[300px] w-full hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow"}/>
+                    className={"w-full hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow"}/>
             </a>
             <div className={"flex flex-row justify-center space-x-1.5 mt-2"}>
                 {skills.map((skill) =>

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="change text">
+    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="compress images more">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/bobi/Documents/portfolio2/src",
+    "last_opened_file_path": "C:/Users/bobi/Documents/portfolio2/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,7 +44,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bobi\Documents\portfolio2\public" />
       <recent name="C:\Users\bobi\Documents\portfolio2\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bobi\Documents\portfolio2\src\assets\project-images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665232252426</updated>
       <workItem from="1665232255346" duration="20000" />
-      <workItem from="1666000379410" duration="1816000" />
+      <workItem from="1666000379410" duration="3448000" />
+      <workItem from="1666249072716" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="change text">
       <created>1666011464594</created>
@@ -67,7 +77,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666011844216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="compress images">
+      <created>1666012923101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012923101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="compress images">
+      <created>1666013140153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666013140153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="compress images more">
+      <created>1666013451704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666013451704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change text" />
-    <option name="LAST_COMMIT_MESSAGE" value="change text" />
+    <MESSAGE value="compress images" />
+    <MESSAGE value="compress images more" />
+    <option name="LAST_COMMIT_MESSAGE" value="compress images more" />
   </component>
 </project>

@@ -21,21 +21,21 @@ function AboutSection({aboutText, languages, frameworks, software}) {
                 <div className={"flex flex-row space-x-1"}>
                     <MdWork className={"text-4xl"}/>
                     <div>
-                        <p className={"font-bold ml-2 text-md lg:text-lg"}>React Developer -</p>
+                        <p className={"font-bold ml-2 text-md lg:text-lg"}>React Developer</p>
+                        <p className={"italic text-md ml-2 -mt-1"}>Kulinarcho, BG</p>
                         <p className={"text-xs ml-2"}>Jul 2022 - Nov 2022</p>
                     </div>
-                    <p className={"italic text-md lg:text-lg"}>Kulinarcho, BG</p>
                 </div>
 
-                <div className={"h-[65px] bg-gray-200 w-1 rounded ml-4 -mt-1.5 mb-2"}></div>
+                <div className={"h-[65px] bg-gray-200 w-1 rounded ml-4 -mt-4 mb-2"}></div>
 
                 <div className={"flex flex-row space-x-1"}>
                     <BiCircle className={"text-3xl ml-1"}/>
                     <div>
-                        <p className={"font-bold ml-2 text-md lg:text-lg -mt-1"}>Django Developer -</p>
+                        <p className={"font-bold ml-2 text-md lg:text-lg -mt-1"}>Django Developer</p>
+                        <p className={"italic text-md ml-2 -mt-1"}>Reportr Software, UK</p>
                         <p className={"text-xs ml-2 text-xs"}>Nov 2022 - Mar 2022</p>
                     </div>
-                    <p className={"italic text-md lg:text-lg -mt-1"}>Reportr Software, UK</p>
                 </div>
             </div>
 
@@ -43,34 +43,34 @@ function AboutSection({aboutText, languages, frameworks, software}) {
             <div>
                 <div className={"text-gray-800 dark:text-gray-200 mt-2"}>
                     <div className={"flex flex-row space-x-1"}>
-                        <FaGraduationCap className={"text-4xl"}/>
+                        <FaGraduationCap className={"text-[37px] min-w-fit"}/>
                         <div>
-                            <p className={"font-bold ml-2 text-md lg:text-lg"}>BSc Conputre Science -</p>
+                            <p className={"font-bold ml-2 text-md lg:text-lg"}>BSc Computer Science - First (GPA: 4.0)</p>
+                            <p className={"italic ml-2 text-md -mt-1.5"}>University of East Anglia, Norwich, UK</p>
                             <p className={"text-xs ml-2"}>2019 - 2022</p>
                         </div>
-                        <p className={"italic text-md lg:text-lg"}>University of East Anglia, Norwich, UK - <b>First (GPA: 4)</b></p>
                     </div>
 
-                    <div className={"h-[65px] bg-gray-200 w-1 rounded ml-4 -mt-1.5 mb-2"}></div>
+                    <div className={"h-[65px] bg-gray-200 w-1 rounded ml-4 -mt-5 mb-2"}></div>
 
                     <div className={"flex flex-row space-x-1"}>
-                        <BiCircle className={"text-3xl ml-1"}/>
+                        <BiCircle className={"text-[30px] ml-1 min-w-fit"}/>
                         <div>
-                            <p className={"font-bold ml-2 text-md lg:text-lg -mt-1"}>Computer Science BTEC Level 3  -</p>
+                            <p className={"font-bold ml-2 text-md lg:text-lg -mt-1"}>Computer Science BTEC Level 3</p>
+                            <p className={"italic text-md ml-2 -mt-1"}>Bedford College, Bedford, UK</p>
                             <p className={"text-xs ml-2 text-xs"}>2017 - 2019</p>
                         </div>
-                        <p className={"italic text-md lg:text-lg -mt-1"}>Bedford College, Bedford, UK - <b>Distinction (6)</b></p>
                     </div>
 
-                    <div className={"h-[65px] bg-gray-200 w-1 rounded ml-4 mb-2"}></div>
+                    <div className={"h-[65px] bg-gray-200 w-1 rounded ml-4 -mt-4 mb-2"}></div>
 
                     <div className={"flex flex-row space-x-1"}>
-                        <BiCircle className={"text-3xl ml-1"}/>
+                        <BiCircle className={"text-[30px] ml-1"}/>
                         <div>
-                            <p className={"font-bold ml-2 text-md lg:text-lg -mt-1"}>High School -</p>
+                            <p className={"font-bold ml-2 text-md lg:text-lg -mt-1"}>High School</p>
+                            <p className={"italic text-md ml-2 -mt-1"}>Harlington Upper School, UK</p>
                             <p className={"text-xs ml-2 text-xs"}>2014 - 2017</p>
                         </div>
-                        <p className={"italic text-md lg:text-lg -mt-1"}>Harlington Upper School, UK</p>
                     </div>
                 </div>
 

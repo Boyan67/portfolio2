@@ -47,3 +47,7 @@ export const projects = [
     {image: bored, skills: [skills[0], skills[1], skills[3], skills[4]], title: "Bored!", type: "MOBILE APP", link: "#"},
 ];
 
+export const about = "A Computer Science graduate from the University of East Anglia, eager to learn and improve my skill set. " +
+    "My passion lies in being a great front-end developer. Looking for a role where I can grow and learn from experienced team members, " +
+    "while drawing on experience from projects I have successfully completed."
+
