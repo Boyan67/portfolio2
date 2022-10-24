@@ -55,7 +55,7 @@ function App() {
             <p className={"text-gray-800"}>PROJECTS</p>
             <p className={"text-main-100"}>//</p>
           </div>
-          <div className={"flex flex-row flex-wrap justify-around w-[95%] lg:w-[75%] self-center"}>
+          <div className={"flex flex-row flex-wrap justify-around w-[100%] lg:w-[75%] self-center"}>
             {projects.map((project) => (
                 <ProjectCard
                     skills={project.skills}

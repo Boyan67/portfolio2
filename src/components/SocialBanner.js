@@ -3,7 +3,7 @@ import {SiDribbble, SiFreecodecamp, SiGithub, SiLinkedin} from "react-icons/si";
 
 function SocialBanner() {
     return (
-        <div className={"flex text-3xl space-x-1.5 md:space-x-0 text-gray-400 ml-[3%] mt-4 md:space-y-3 md:absolute md:right-10 md:top-1/2 md:-mt-32 md:flex-col md:text-5xl"}>
+        <div className={"flex text-4xl space-x-1.5 space-x-0 text-gray-400 ml-[3%] mt-4 space-y-3 absolute right-2 md:right-10 top-1/2 -mt-56 md:-mt-40 flex-col md:text-5xl"}>
             <a className={"hover:text-[#0a66c2]"} href={"https://www.linkedin.com/in/boyan-yonkov/"} target={"_blank"} rel="noreferrer">
                 <SiLinkedin/>
             </a>

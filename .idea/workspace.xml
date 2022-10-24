@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="compress images more">
+    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/project-images/kulinarcho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeAboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeAboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialBanner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <updated>1665232252426</updated>
       <workItem from="1665232255346" duration="20000" />
       <workItem from="1666000379410" duration="3448000" />
-      <workItem from="1666249072716" duration="2577000" />
+      <workItem from="1666249072716" duration="6152000" />
     </task>
     <task id="LOCAL-00001" summary="change text">
       <created>1666011464594</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666013451704</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixes">
+      <created>1666251804488</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666251804488</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +126,7 @@
     <MESSAGE value="change text" />
     <MESSAGE value="compress images" />
     <MESSAGE value="compress images more" />
-    <option name="LAST_COMMIT_MESSAGE" value="compress images more" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>
