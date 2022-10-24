@@ -77,7 +77,7 @@ function App() {
                     <img
                         src={project.image}
                         alt="Placeholder img"
-                        className={"w-full hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow w-[600px]"}/>
+                        className={"md:w-[600px] w-full  hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow"}/>
                   </button>
                   <ProjectCard
                       skills={project.skills}
