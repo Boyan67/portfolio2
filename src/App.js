@@ -69,15 +69,15 @@ function App() {
             <p className={"text-gray-800"}>PROJECTS</p>
             <p className={"text-main-100"}>//</p>
           </div>
-          <div className={"flex flex-row flex-wrap justify-around w-[100%] lg:w-[75%] self-center"}>
+          <div className={"flex flex-row flex-wrap justify-around w-[100%] lg:w-[75%] self-center "}>
             {projects.map((project) => (
-                <div>
+                <div className={""}>
                   {open ? <Popup title={title} info={info} link={link} project={projectNum} closePopup={() => setOpen(false)} /> : null}
                   <button onClick={() => openPopup(project.title, project.type, project.link, project.num)}>
                     <img
                         src={project.image}
                         alt="Placeholder img"
-                        className={"md:w-[600px] w-full  hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow"}/>
+                        className={"md:w-[600px] w-[66.5%] ml-24 hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow"}/>
                   </button>
                   <ProjectCard
                       skills={project.skills}

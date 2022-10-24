@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="popup + fixes + images">
+    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="image fix mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1665232255346" duration="20000" />
       <workItem from="1666000379410" duration="3448000" />
       <workItem from="1666249072716" duration="6152000" />
-      <workItem from="1666601195263" duration="11520000" />
+      <workItem from="1666601195263" duration="12595000" />
     </task>
     <task id="LOCAL-00001" summary="change text">
       <created>1666011464594</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666615701027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="image fix mobile">
+      <created>1666616268969</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666616268969</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +156,7 @@
     <MESSAGE value="compress images more" />
     <MESSAGE value="fixes" />
     <MESSAGE value="popup + fixes + images" />
-    <option name="LAST_COMMIT_MESSAGE" value="popup + fixes + images" />
+    <MESSAGE value="image fix mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="image fix mobile" />
   </component>
 </project>
