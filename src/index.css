@@ -29,7 +29,6 @@ body{
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -53,3 +52,33 @@ body{
   visibility: visible;
 }
 
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+.popup-body {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  top: 10%;
+  text-align: center;
+  margin: auto;
+  border-color: black;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .popup-body {
+    left: 0;
+    right: 0;
+  }
+}

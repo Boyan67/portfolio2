@@ -6,6 +6,7 @@ import SocialBanner from "./components/SocialBanner";
 import ProjectCard from "./components/ProjectCard";
 import {frameworks, languages, projects, skills, software} from "./data";
 import AboutSection from "./components/AboutSection";
+import {Popup} from "./components/PopUp";
 
 export function navigateInPage (ele){
   let offsetTop  = document.getElementById(ele).offsetTop;
@@ -18,10 +19,23 @@ export function navigateInPage (ele){
 function App() {
 
   const [darkToggle, setDarkToggle] = React.useState(true)
+  const [open, setOpen] = React.useState(false);
+  const [title, setTitle] = React.useState("");
+  const [info, setInfo] = React.useState("");
+  const [link, setLink] = React.useState("");
+  const [projectNum, setProjectNum] = React.useState(1);
 
   useEffect(() => {
     document.title = 'Boyan Yonkov';
   });
+
+  function openPopup(title, info, link, projectNum) {
+    setOpen(true)
+    setTitle(title)
+    setInfo(info)
+    setLink(link)
+    setProjectNum(projectNum)
+  }
 
   return (
       <div className={`${darkToggle ? 'dark' : ''}`} id={"landing-page"}>
@@ -57,13 +71,21 @@ function App() {
           </div>
           <div className={"flex flex-row flex-wrap justify-around w-[100%] lg:w-[75%] self-center"}>
             {projects.map((project) => (
-                <ProjectCard
-                    skills={project.skills}
-                    title={project.title}
-                    type={project.type}
-                    image={project.image}
-                    link={project.link}
-                />
+                <div>
+                  {open ? <Popup title={title} info={info} link={link} project={projectNum} closePopup={() => setOpen(false)} /> : null}
+                  <button onClick={() => openPopup(project.title, project.type, project.link, project.num)}>
+                    <img
+                        src={project.image}
+                        alt="Placeholder img"
+                        className={"w-full hover:scale-[1.03] hover:shadow-xl ease-in-out duration-300 shadow w-[600px]"}/>
+                  </button>
+                  <ProjectCard
+                      skills={project.skills}
+                      title={project.title}
+                      type={project.type}
+                      link={project.link}
+                  />
+                </div>
             ))}
           </div>
         </div>
