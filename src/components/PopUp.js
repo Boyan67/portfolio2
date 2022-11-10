@@ -69,11 +69,11 @@ export const Popup = ({title, info, link, project, closePopup }) => {
             <div className="popup-body">
                 <SimpleImageSlider
                     width={"100%"}
-                    height={"75%"}
+                    height={"70%"}
                     images={getImages()}
                     showBullets={true}
                     showNavs={true}
-                    style={{zIndex: 0}}
+                    style={{zIndex: 0, flex: 1}}
                 />
                 <button onClick={closePopup} className={"text-4xl absolute top-[5px] right-[5px]"}>
                     <AiFillCloseCircle className={"text-gray-900"}/>

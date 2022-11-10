@@ -4,7 +4,7 @@ import {Popup} from "./PopUp";
 
 function ProjectCard({image, skills, title, type, setOpen}) {
     return (
-        <div className={"w-[600px] mb-10"} >
+        <div className={"md:w-[600px] mb-10"} >
 
             <div className={"flex flex-row justify-center space-x-1.5 mt-2"}>
                 {skills.map((skill) =>
