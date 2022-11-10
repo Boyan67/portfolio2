@@ -1,8 +1,7 @@
 import React from 'react';
 import SkillsIcon from "./SkillsIcon";
-import {Popup} from "./PopUp";
 
-function ProjectCard({image, skills, title, type, setOpen}) {
+function ProjectCard({skills, title, type}) {
     return (
         <div className={"md:w-[600px] mb-10"} >
 

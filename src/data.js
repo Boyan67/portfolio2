@@ -2,19 +2,17 @@ import {
     SiBootstrap,
     SiCss3,
     SiDjango, SiGit,
-    SiGithub,
     SiHtml5,
-    SiJavascript, SiJetbrains, SiJira, SiJirasoftware, SiMysql,
-    SiPostman, SiPycharm,
+    SiJavascript, SiJira, SiMysql,
+    SiPostman,
     SiReact,
     SiSass,
-    SiTailwindcss, SiWebstorm
+    SiTailwindcss
 } from "react-icons/si";
-import template from "./assets/project-images/template.png";
 import kulinarcho from "./assets/project-images/kulinarcho.png"
 import dashboard from "./assets/project-images/dashboard-admin.png"
 import mealPlan from "./assets/project-images/meal-plan.png"
-import eurotours from "./assets/project-images/eurotours-landing.png"
+import eurotours from "./assets/project-images/eurotours1-min.png"
 import python from "./assets/icons/python.png"
 import figma from "./assets/icons/figma.png"
 import webStorm from "./assets/icons/webStrom.png"
@@ -59,12 +57,12 @@ export const projects = [
         skills: [{t: "React Native", i:skills[0]}, {t: "JavaScript", i:skills[1]}, {t: "CSS", i:skills[3]}],
         title: "Kulinarcho",
         type: "MOBILE APP",
-        link: "https://kulinarcho.com/mobile",
+        link: "",
         num: 1,
     },
     {image: eurotours,
         skills: [{t: "HMTL", i:skills[2]}, {t: "CSS", i:skills[3]}, {t: "Bootstrap", i:skills[11]}, {t: "react", i:skills[4]}, {t: "Python", i:skills[8]}, {t: "Django", i:skills[9]}],
-        title: "Eurotours", type: "WEBSITE", link: "https://boyan67.pythonanywhere.com/", num: 4},
+        title: "Eurotours", type: "WEBSITE", link: "https://www.eurotours-bg.com/", num: 4},
 ];
 
 export const about = "A Computer Science graduate from the University of East Anglia, eager to learn and improve my skill set. " +

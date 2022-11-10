@@ -2,11 +2,9 @@ import React from 'react';
 import {
     SiBootstrap,
     SiCss3, SiDjango, SiGit,
-    SiGithub,
     SiHtml5,
     SiJavascript, SiMysql,
     SiPostman, SiReact,
-    SiSass,
     SiTailwindcss,
 } from "react-icons/si";
 

@@ -4,7 +4,7 @@ import React, {useEffect} from 'react'
 import {FaChevronCircleDown} from "react-icons/fa";
 import SocialBanner from "./components/SocialBanner";
 import ProjectCard from "./components/ProjectCard";
-import {frameworks, languages, projects, skills, software} from "./data";
+import {frameworks, languages, projects, software} from "./data";
 import AboutSection from "./components/AboutSection";
 import {Popup} from "./components/PopUp";
 
