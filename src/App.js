@@ -42,7 +42,7 @@ function App() {
         <div className={"bg-gray-100 dark:bg-gradient-to-tl from-black to-[#303030] h-screen" +
             ""}>
           <Navbar darkMode={darkToggle} setDarkToggle={setDarkToggle}/>
-          <div className={"absolute lg:left-[17%] left-[3%] top-1/4 z-10"}>
+          <div className={"pt-28 pl-8 lg:absolute lg:left-[17%] left-[3%] top-1/4 z-10"}>
             <HomeAboutSection/>
           </div>
           <div className={"absolute bottom-0 right-0 -mr-32 -mb-28"}>
