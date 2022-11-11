@@ -47,12 +47,9 @@ export const frameworks = [skills[0], skills[4], skills[5], skills[9], skills[11
 export const software = [skills[6], skills[7], skills[12], skills[13], skills[14], skills[15], skills[16]]
 
 export const projects = [
-    {image: dashboard,
-        skills: [{t: "React", i:skills[0]}, {t: "Tailwind", i:skills[4]}, {t: "HTML", i:skills[2]}, {t: "CSS", i:skills[3]}],
-        title: "Admin Dashboard", type: "WEBSITE", link: "https://github.com/Boyan67/admin-dashboard", num: 2, },
-    {image: mealPlan,
-        skills: [{t: "HTML", i:skills[2]}, {t: "CSS", i:skills[3]}, {t: "Bootstrap", i:skills[11]}, {t: "Python", i:skills[8]}, {t: "Django", i:skills[9]}, {t: "SQL", i:skills[10]}],
-        title: "Meal Planer", type: "WEBSITE", link: "https://github.com/Boyan67/meal_plan", num: 3,},
+    {image: eurotours,
+        skills: [{t: "HMTL", i:skills[2]}, {t: "CSS", i:skills[3]}, {t: "Bootstrap", i:skills[11]}, {t: "react", i:skills[4]}, {t: "Python", i:skills[8]}, {t: "Django", i:skills[9]}],
+        title: "Eurotours", type: "WEBSITE", link: "https://www.eurotours-bg.com/", num: 4},
     {image: kulinarcho,
         skills: [{t: "React Native", i:skills[0]}, {t: "JavaScript", i:skills[1]}, {t: "CSS", i:skills[3]}],
         title: "Kulinarcho",
@@ -60,9 +57,12 @@ export const projects = [
         link: "",
         num: 1,
     },
-    {image: eurotours,
-        skills: [{t: "HMTL", i:skills[2]}, {t: "CSS", i:skills[3]}, {t: "Bootstrap", i:skills[11]}, {t: "react", i:skills[4]}, {t: "Python", i:skills[8]}, {t: "Django", i:skills[9]}],
-        title: "Eurotours", type: "WEBSITE", link: "https://www.eurotours-bg.com/", num: 4},
+    {image: mealPlan,
+        skills: [{t: "HTML", i:skills[2]}, {t: "CSS", i:skills[3]}, {t: "Bootstrap", i:skills[11]}, {t: "Python", i:skills[8]}, {t: "Django", i:skills[9]}, {t: "SQL", i:skills[10]}],
+        title: "Meal Planer", type: "WEBSITE", link: "https://github.com/Boyan67/meal_plan", num: 3,},
+    {image: dashboard,
+        skills: [{t: "React", i:skills[0]}, {t: "Tailwind", i:skills[4]}, {t: "HTML", i:skills[2]}, {t: "CSS", i:skills[3]}],
+        title: "Admin Dashboard", type: "WEBSITE", link: "https://github.com/Boyan67/admin-dashboard", num: 2, },
 ];
 
 export const about = "A Computer Science graduate from the University of East Anglia, eager to learn and improve my skill set. " +

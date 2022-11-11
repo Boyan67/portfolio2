@@ -7,6 +7,8 @@ import ProjectCard from "./components/ProjectCard";
 import {frameworks, languages, projects, software} from "./data";
 import AboutSection from "./components/AboutSection";
 import {Popup} from "./components/PopUp";
+import {SiGithub} from "react-icons/si";
+import {BiLinkExternal} from "react-icons/bi";
 
 export function navigateInPage (ele){
   let offsetTop  = document.getElementById(ele).offsetTop;
@@ -87,6 +89,13 @@ function App() {
                   />
                 </div>
             ))}
+          </div>
+          <div className={"self-center flex flex-col text-gray-900"}>
+            <SiGithub className={"self-center text-4xl"}/>
+            <div className={"flex mb-10 "}>
+              <a className={"text-2xl font-bold uppercase"} href={"https://github.com/Boyan67"}>More Projects</a>
+              <BiLinkExternal className={"self-center text-2xl"}/>
+            </div>
           </div>
         </div>
 

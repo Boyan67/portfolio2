@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="update links and cleanup code">
+    <list default="true" id="2e8447e0-8b86-4979-81a5-ee81fcf73c46" name="Changes" comment="fix mobile issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,8 @@
       <workItem from="1666693447711" duration="295000" />
       <workItem from="1666695787045" duration="27000" />
       <workItem from="1668063414841" duration="1203000" />
-      <workItem from="1668064637605" duration="3591000" />
+      <workItem from="1668064637605" duration="4260000" />
+      <workItem from="1668163495945" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="change text">
       <created>1666011464594</created>
@@ -159,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668067554594</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix mobile issues">
+      <created>1668068568870</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668068568870</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
     <MESSAGE value="attempt to fix" />
     <MESSAGE value="layout-fixes" />
     <MESSAGE value="update links and cleanup code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update links and cleanup code" />
+    <MESSAGE value="fix mobile issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix mobile issues" />
   </component>
 </project>
